@@ -1,0 +1,2 @@
+rootProject.name = "Euro2INR Converter"
+include ':app'
