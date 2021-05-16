@@ -35,7 +35,7 @@ public class ThirdActivity extends AppCompatActivity {
 
         a = findViewById(R.id.info);
         b = findViewById(R.id.mail);
-        c = findViewById(R.id.xyz);
+        c = findViewById(R.id.fourth);
 
         String x = getIntent().getStringExtra("keyname");
         String y = getIntent().getStringExtra("keyemail");

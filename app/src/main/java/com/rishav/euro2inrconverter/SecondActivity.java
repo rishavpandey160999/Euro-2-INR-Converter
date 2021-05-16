@@ -25,8 +25,8 @@ public class SecondActivity extends AppCompatActivity {
 
     Button signout;
     GoogleSignInClient mGoogleSignInClient;
-    TextView name, email;
-    ImageView pic;
+    TextView p, q;
+    ImageView r;
 
     public  void clickbtn(View view)
 
@@ -42,9 +42,9 @@ public class SecondActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_second);
 
-        name = findViewById(R.id.name);
-        email = findViewById(R.id.email);
-        pic = findViewById(R.id.xyz);
+        p = findViewById(R.id.name);
+        q = findViewById(R.id.email);
+        r = findViewById(R.id.third);
 
         GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestEmail()
@@ -68,9 +68,9 @@ public class SecondActivity extends AppCompatActivity {
             String personEmail = acct.getEmail();
             //String personId = acct.getId();
             Uri personPhoto = acct.getPhotoUrl();
-            name.setText(personName);
-            email.setText(personEmail);
-            Glide.with(this).load(String.valueOf(personPhoto)).into(pic);
+            p.setText(personName);
+            q.setText(personEmail);
+            Glide.with(this).load(String.valueOf(personPhoto)).into(r);
         }
     }
     private void signOut() {
