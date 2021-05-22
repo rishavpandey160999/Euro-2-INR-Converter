@@ -1,0 +1,2 @@
+# Euro-2-INR-Converter
+Designed an android app named "Euro 2 INR Converter" which converts a given amount in Euro into INR. For creating the same I used JAVA and tool like Android Studio. I've integrated Google and Facebook Signin in it, so that a user can sign in by any of the two ways. Once the user is signed in, their name, email, and profile picture is displayed on the next screen. User can further continue to the next interface i.e. "Euro 2 INR Converter" page. 
