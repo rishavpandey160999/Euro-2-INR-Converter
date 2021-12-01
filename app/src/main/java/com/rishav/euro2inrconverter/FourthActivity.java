@@ -16,7 +16,7 @@ public class FourthActivity extends AppCompatActivity {
         EditText euroAmount = (EditText) findViewById(R.id.euroAmount);
         String euros = euroAmount.getText().toString();
         Double rishaveuro = Double.parseDouble(euros);
-        Double rishavINR = 89.00 * rishaveuro;
+        Double rishavINR = 85.00 * rishaveuro;
         String laptop = "= " + "Rs " + rishavINR.toString();
         Toast.makeText(this, laptop, Toast.LENGTH_SHORT).show();
 
